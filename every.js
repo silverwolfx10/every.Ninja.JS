@@ -11,7 +11,7 @@
  *        $every([1, 2, 3], $equal(2));
  * 
  */
-Ninja.service('$every', ['$curry'], function ($curry) {
+Ninja.module('$every', ['$curry'], function ($curry) {
   
   /**
    * Testa se todos os elementos do array passou no teste da funcao fornecida
